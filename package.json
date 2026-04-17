@@ -1,0 +1,25 @@
+{
+  "name": "mongodb-vs-server",
+  "version": "1.0.0",
+  "description": "Local Node.js server with Express and MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "node"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "express": "^4.18.2",
+    "mongodb": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
